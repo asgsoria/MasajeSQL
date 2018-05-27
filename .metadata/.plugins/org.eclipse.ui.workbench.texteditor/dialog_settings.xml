@@ -2,12 +2,19 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="comboBox_2" key="selection"/>
+		<item value="mouse" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="mouse"/>
+			<item value="table_factura)"/>
+			<item value="•scrollPane.setViewportView(table_factura)"/>
+			<item value="•scrollPane.setViewportView(table_factura);"/>
+			<item value="selec"/>
+			<item value="Jta"/>
+			<item value="add"/>
 			<item value="comboBox_2"/>
 			<item value="conexion"/>
 			<item value="model"/>
@@ -16,9 +23,6 @@
 			<item value="mostrardatos"/>
 			<item value="cn"/>
 			<item value="e"/>
-			<item value="pst"/>
-			<item value="setString"/>
-			<item value="ps"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>
