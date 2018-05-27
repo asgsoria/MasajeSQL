@@ -233,7 +233,7 @@ public class MasajeBase extends JFrame {
 
                     int row = table_masajista.getSelectedRow();
                     int col = table_masajista.getSelectedColumn();
-                    table_masajista.getValueAt(row, col);
+                    String selectedApellido = (String) table_masajista.getValueAt(row, 0);
                     String[] masajista = new String[2];
                     masajista[0] = textField.getText();
                     masajista[1] = (String) textField_1.getText();
@@ -243,7 +243,7 @@ public class MasajeBase extends JFrame {
 
                         agr.setString(1, masajista[0]);
                         agr.setString(2, masajista[1]);
-                        agr.setString(3, masajista[0]);
+                        agr.setString(3, selectedApellido);
 
                         agr.executeUpdate();
                         tableMasajistaRefresh();
